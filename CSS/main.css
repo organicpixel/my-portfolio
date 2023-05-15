@@ -1,4 +1,3 @@
-
 :root {
   font-size: 62.5%;
 }
@@ -56,5 +55,4 @@ article {
 }
 
 .menu li:not(:last-child) {
-  margin-right: 20px;
-}
+ 
