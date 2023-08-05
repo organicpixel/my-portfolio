@@ -1,5 +1,7 @@
+
 :root {
   font-size: 62.5%;
+  line-height: 1.5px;
 }
 
 body {
@@ -55,4 +57,64 @@ article {
 }
 
 .menu li:not(:last-child) {
- 
+  margin-right: 20px;
+}
+
+a {
+  color: aliceblue;
+}
+
+.box {
+  max-width: 100%;
+  background: #4380950e;
+  border: 1px solid rgba(255, 255, 255, 0.226);
+  border-radius: 1rem;
+  padding: 3rem;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    padding: 2%; 
+  }
+
+  h1 {
+    font-size: 2.6rem; 
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  h4 {
+    font-size: 1.4rem;
+  }
+}
+
+.content {
+  flex: 1;
+}
+
+.spotify-iframe-container {
+  flex: 1;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-left: 2rem;
+  margin-right: 2rem; 
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
